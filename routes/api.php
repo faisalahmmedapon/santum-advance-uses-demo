@@ -1,3 +1,5 @@
+
+
 <?php
 
 use App\Http\Controllers\API\ProductController;
@@ -14,3 +16,8 @@ Route::controller(RegisterController::class)->group(function(){
 Route::middleware('auth:sanctum')->group( function () {
     Route::resource('products', ProductController::class);
 });
+
+
+
+
+//https://www.itsolutionstuff.com/post/laravel-10-rest-api-authentication-using-sanctum-tutorialexample.html
